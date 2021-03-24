@@ -67,11 +67,11 @@ def remove_noise(tweet_tokens, stop_words = ()):
 
 # create an instance of a reddit object
 reddit = praw.Reddit(
-            user_agent="(u/Zheros00)",
-            client_id="NQ18FymDbpV6ww",
-            client_secret="715_OLkh041e1iWXPTxbLPuXXdAZDw",
-            username="Zheros00",
-            password="fakesatpractice",
+            user_agent="(USERNAME)",
+            client_id="YOUR ID",
+            client_secret="YOUR SECRET",
+            username="YOUR USERNAM",
+            password="YOUR PASSWORD",
         )
 
 #go to the RealEstates Subreddit
